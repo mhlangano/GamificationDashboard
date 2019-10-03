@@ -1,7 +1,11 @@
 {
     "compilerOptions": {
         "baseUrl": ".",
-        "paths": {},
+        "paths": {
+            "c/ChartJS23": [
+                "../staticresources/ChartJS23/ChartJS23.js"
+            ]
+        },
         "experimentalDecorators": true
     },
     "include": [

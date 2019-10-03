@@ -1,0 +1,48 @@
+<aura:component >
+    <div class="slds-p-around--medium slds-p-top_xx-large container-cls" >
+        <div class="slds-grid slds-wrap slds-grid--align-center">
+            <div class="slds-size--1-of-1 slds-medium-size--4-of-4 slds-large-size--3-of-4">
+
+                <div class="slds-grid slds-wrap">
+                    <div class="slds-size--1-of-1 slds-medium-size--5-of-7">
+                        <c:Chart_Tile cmpName="Chart_Mix"/>
+                    </div>
+                    <div class="slds-size--1-of-1 slds-medium-size--2-of-7">
+                        <div class="slds-size--1-of-1 slds-small-size--1-of-2 slds-medium-size--1-of-1">
+                        	<c:Chart_Tile cmpName="Chart_ClientSatisfaction"/>
+                        </div>
+                        <div class="slds-size--1-of-1 slds-small-size--1-of-2 slds-medium-size--1-of-1 slds-p-top_xxx-small">
+                        	<c:Chart_Tile cmpName="Chart_HandleTime"/>
+                        </div>                                                
+                    </div>
+                </div>
+                <div class="slds-grid slds-wrap">  
+                    <div class="slds-size--1-of-1 slds-medium-size--1-of-2">
+                        <div class="slds-size--1-of-1 slds-medium-size--1-of-1">
+                        	<c:Chart_Tile cmpName="Charts_Leaderboard"/>
+                        </div>
+                        <div class="slds-size--1-of-1 slds-medium-size--1-of-1 slds-p-top_xxx-small">
+                        	<c:Chart_Tile cmpName="Chart_Utilization"/>
+                        </div>
+                        
+                        <div class="slds-size--1-of-1 slds-medium-size--1-of-1 slds-p-top_xxx-small">
+                        	<c:Chart_Tile cmpName="Chart_Polar"/>
+                        </div>                        
+                    </div> 
+                    <div class="slds-size--1-of-1 slds-medium-size--1-of-2">
+                        <div class="slds-size--1-of-1 slds-medium-size--1-of-1">
+                       		<c:Chart_Tile cmpName="Chart_Doughnut"/>
+                        </div>
+                        <div class="slds-size--1-of-1 slds-medium-size--1-of-1 slds-p-top_xxx-small" >
+                       		<c:Chart_Tile cmpName="Charts_Line"/>
+                        </div> 
+                        <div class="slds-size--1-of-1 slds-medium-size--1-of-1 slds-p-top_xxx-small" >
+                       		<c:Chart_Tile cmpName="Chart_Radar"/>
+                        </div>                           
+                    </div>
+                                                            
+                </div>                  
+            </div>
+        </div>
+    </div>
+</aura:component>

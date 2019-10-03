@@ -1,0 +1,32 @@
+<aura:component >
+  
+    <div class="card_heading slds-m-bottom--xx-small">Utilization</div>
+    <div class="slds-p-bottom_medium">
+      <div class="slds-grid slds-grid_align-spread slds-p-bottom_x-small" id="progress-bar-label-id-6">
+        <span>2019</span>
+        <span aria-hidden="true">
+          <strong>91%</strong>
+        </span>
+      </div>
+      <div class="slds-progress-bar slds-progress-bar_large" aria-valuemin="0" aria-valuemax="100" aria-valuenow="91" aria-labelledby="progress-bar-label-id-6" role="progressbar">
+        <span class="slds-progress-bar__value" style="width:91%">
+          <span class="slds-assistive-text">91%</span>
+        </span>
+      </div> 
+    </div>
+
+    	<div>
+      <div class="slds-grid slds-grid_align-spread slds-p-bottom_x-small" id="progress-bar-label-id-6">
+        <span>2018</span>
+        <span aria-hidden="true">
+          <strong>78%</strong>
+        </span>
+      </div>
+      <div class="slds-progress-bar slds-progress-bar_large" aria-valuemin="0" aria-valuemax="100" aria-valuenow="78" aria-labelledby="progress-bar-label-id-6" role="progressbar">
+        <span class="slds-progress-bar__value" style="width:78%">
+          <span class="slds-assistive-text">78%</span>
+        </span>
+      </div> 
+    </div>    
+    
+</aura:component>

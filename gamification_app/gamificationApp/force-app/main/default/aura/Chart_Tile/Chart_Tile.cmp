@@ -1,0 +1,6 @@
+<aura:component >
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="cmpName" type="String" />
+    
+    <div aura:id="tile_container" class="card_container slds-m-around--x-small slds-p-around--medium"/>
+</aura:component>

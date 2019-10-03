@@ -1,0 +1,11 @@
+<aura:component >
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <div aura:id="card_heading" class="card_heading">Revenue</div>
+
+    <div class="slds-grid slds-grid--vertical-stretch slds-wrap slds-p-bottom--medium">
+        <div class="slds-size--1-of-1 slds-text-align--center" >
+            <div aura:id="revenue"></div>
+        </div>
+    </div>
+</aura:component>

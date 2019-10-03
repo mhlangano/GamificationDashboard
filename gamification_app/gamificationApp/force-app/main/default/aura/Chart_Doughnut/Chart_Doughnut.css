@@ -1,0 +1,10 @@
+.THIS .square {    
+    width: 0.7vw;
+    height: 0.7vw;
+}
+.THIS .chart-legend li span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}

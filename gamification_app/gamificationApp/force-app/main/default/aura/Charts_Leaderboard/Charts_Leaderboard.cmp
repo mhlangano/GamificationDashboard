@@ -1,0 +1,43 @@
+<aura:component controller="Charts_Controller">
+   
+    <c:Charts_Service aura:id="service" />
+    
+   <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+   <aura:attribute name="performersListObjects" type="String[]" />
+   <aura:attribute name="performersObject" type="String" />
+    
+   <div aura:id="card_heading" class="card_heading">Leaderboard</div>
+   
+    <div class="slds-grid slds-grid--vertical-stretch slds-wrap">
+    <div class="slds-m-horizontal--x-small">
+      <div class="slds-clearfix">
+         <div class="body_ultra_small performers_list_title slds-p-top_x-small slds-float_left">Top {!v.performersListObjects.length} by: points</div>
+      </div>        
+      <div aura:id="client_list" class="list_container slds-scrollable--y slds-grid slds-wrap slds-grid--align-spread">
+             <aura:iteration items="{!v.performersListObjects}" var="perfs">
+                <div class="slds-size--1-of-1" data-clientId="{!perfs.Id}">
+                   <div class="slds-grid slds-grid--align-spread slds-grid--vertical-align-center list_item">
+                      <div class="slds-grid slds-grid--align-spread">
+                         <div class="slds-p-right_medium min_width">
+                            <div class="pic" style="{!perfs.ImageUrlCSS}">{!perfs.PerfFirstChar}</div>
+                         </div>
+                         <div>
+                            <div class="full_name">{!perfs.FullName}&nbsp;</div>
+                            <div class="body_ultra_small performers_list_title">{!perfs.Title}&nbsp;</div>
+                         </div>
+                      </div>
+                      <div class="slds-p-around--medium slds-text-align--right">
+                         <div >
+                            <b class="{!perfs.ColorClass}">{!perfs.Rating}</b>                            
+                         </div>
+                         <div class="body_ultra_small performers_list_title">{!perfs.Score}</div>
+                      </div>
+                   </div>
+                   <div class="{!perfs.LineBreakClass}"/>
+                   </div>
+             </aura:iteration>
+         </div>
+      </div>
+   </div>
+</aura:component>

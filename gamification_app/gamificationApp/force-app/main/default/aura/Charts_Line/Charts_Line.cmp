@@ -1,0 +1,42 @@
+<aura:component >
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <div aura:id="card_heading" class="card_heading">Service levels</div>
+
+    <div class="slds-grid slds-wrap" style="padding-top: 5px;padding-bottom: 6px;">
+
+        <div class="slds-size--1-of-1 slds-medium-size--1-of-2 slds-text-align--right">     
+            <div class="slds-grid slds-grid_align-end slds-m-bottom--xxx-small" style="text-align: right;padding-top: 6px; ">
+                <div style="line-height: 12px;padding-top:3px;text-align: right; " class="slds-p-left--x-small body_super_ultra_small_nocolour">My average&nbsp;&nbsp;</div>
+                <h4 style="color:#30aa22">81%</h4>
+            </div>
+        </div>
+        <div class="slds-size--1-of-1 slds-medium-size--1-of-2 slds-p-left--large">
+            <div class="slds-grid slds-m-bottom--xxx-small" style="color:#ffb822">
+                <h4 class="no_text_wrap"  style="padding-top: 6px;color:#ffb822">10%</h4>    
+                <div style="line-height: 12px;padding-top: 3px;" class="slds-text-align_left slds-p-left--x-small body_super_ultra_small_nocolour">more than <br/>team average</div>
+            </div>
+        </div>
+
+
+    </div>
+    <div aura:id="service_levels" class="slds-m-right--medium"></div> 
+    
+    <div class="slds-grid slds-wrap" style="padding-top: 5px;padding-bottom: 6px;">
+        <div class="slds-size--1-of-1 slds-medium-size--1-of-2 slds-text-align--right" >     
+            <div class="slds-grid slds-grid_align-end slds-m-bottom--xxx-small"  >
+                <div class="square" style="background:rgba(0, 136, 255, 0.3);border: 2px solid #00aadd;"></div>
+                <div style="line-height: 12px;" class="slds-text-align_left slds-p-left--x-small body_super_ultra_small_nocolour">2019&nbsp;&nbsp;</div>
+           		
+            </div>
+        </div> 
+        <div class="slds-size--1-of-1 slds-medium-size--1-of-2 slds-p-left--large" >
+            <div class="slds-grid slds-m-bottom--xxx-small"  >
+                <div class="square" style="background:rgba(255, 184, 34, 0.3);border: 2px solid #ffb822;"></div>   
+                <div style="line-height: 12px;" class="slds-text-align_left slds-p-left--x-small body_super_ultra_small_nocolour">2018</div>
+            </div>
+        </div>    
+    </div>
+    
+    
+</aura:component>

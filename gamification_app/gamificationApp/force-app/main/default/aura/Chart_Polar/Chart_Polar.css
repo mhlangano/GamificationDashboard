@@ -1,0 +1,7 @@
+.THIS .no_text_wrap{
+  white-space:nowrap;
+}
+.THIS .square {    
+    width: 0.7vw;
+    height: 0.7vw;
+}

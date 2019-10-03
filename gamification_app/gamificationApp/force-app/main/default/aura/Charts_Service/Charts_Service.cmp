@@ -1,0 +1,14 @@
+<aura:component controller="Charts_Controller">
+    <aura:method name="getLeaders">
+        <aura:attribute name="callback" type="function"/>
+    </aura:method> 
+    <aura:method name="getActivities">
+        <aura:attribute name="callback" type="function"/>
+    </aura:method> 
+    <aura:method name="getIncidents">
+        <aura:attribute name="callback" type="function"/>
+    </aura:method>     
+    <aura:method name="getProducts">
+        <aura:attribute name="callback" type="function"/>
+    </aura:method>        
+</aura:component>

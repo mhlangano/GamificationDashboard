@@ -1,0 +1,15 @@
+.THIS.container-cls {    
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;  
+    background-repeat: no-repeat; 
+    background-size: 100% 27%; 
+    background-color:#f1f1f1 ;
+    
+}
+.THIS.content {
+	position: absolute;
+    z-index:1;
+}

@@ -1,0 +1,5 @@
+<aura:component >	
+    <div class="card_heading slds-m-bottom--small">Client satisfaction</div>
+    <div class="slds-align_absolute-center"><lightning:icon iconName="utility:like" size="large"/></div>   
+    <div class="slds-align_absolute-center format-text slds-text-title_bold">90%</div>   
+</aura:component>
